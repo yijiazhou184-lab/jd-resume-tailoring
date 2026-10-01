@@ -10,7 +10,7 @@ A Codex skill for tailoring an existing resume to a specific job description. It
 - Preserves the source resume's language, section order, and approximate length.
 - Produces a complete tailored resume and an evidence-backed change log after the plan is approved.
 
-The skill does not invent qualifications, metrics, responsibilities, or ownership. It does not provide ATS scores or guarantee application outcomes.
+After the user approves the edit plan, the skill also exports a role-specific PDF that follows the source resume's visual format as closely as possible, then renders and checks every page. The skill does not invent qualifications, metrics, responsibilities, or ownership. It does not provide ATS scores or guarantee application outcomes.
 
 ## Use
 
@@ -20,7 +20,7 @@ Provide:
 2. The resume to use as the starting point.
 3. Optional experience notes, project retrospectives, or other materials that can support facts missing from the resume.
 
-The first response contains an evidence map and an edit plan. Review it and reply **“确认”** to receive the tailored resume. Supporting materials are only added after their use is shown in the plan and approved.
+The first response contains an evidence map and an edit plan. Review it and reply **“确认”** to receive the tailored resume and a PDF named for the target role. Supporting materials are only added after their use is shown in the plan and approved.
 
 ## Install
 
